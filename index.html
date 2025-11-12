@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Naveen Kumar N</title>
+  <style>
+    :root{--accent:#0b5cff;--bg:#0f1724;--card:#0b1220;--muted:#98a0b3}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;background:linear-gradient(180deg,#071023 0%, #071026 100%);color:#e6eef8;line-height:1.5}
+    .container{max-width:1000px;margin:40px auto;padding:24px}
+    header{display:flex;align-items:center;gap:16px}
+    .avatar{width:84px;height:84px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#6fd3ff);display:flex;align-items:center;justify-content:center;font-weight:700;color:#041229;font-size:30px}
+    h1{margin:0;font-size:28px}
+    p.lead{margin:6px 0;color:var(--muted)}
+    nav{margin-top:18px;display:flex;gap:12px;flex-wrap:wrap}
+    a.btn{background:transparent;border:1px solid rgba(255,255,255,0.06);padding:8px 12px;border-radius:10px;color:inherit;text-decoration:none;font-size:14px}
+    main{display:grid;grid-template-columns:1fr 320px;gap:24px;margin-top:22px}
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));padding:18px;border-radius:12px;border:1px solid rgba(255,255,255,0.03)}
+    .section{margin-bottom:18px}
+    .skills{display:flex;flex-wrap:wrap;gap:8px}
+    .skill{padding:6px 10px;border-radius:999px;background:rgba(255,255,255,0.03);font-size:13px}
+    .projects .proj{margin-bottom:12px;padding:12px;border-radius:10px;background:rgba(255,255,255,0.01)}
+    footer{margin-top:26px;color:var(--muted);font-size:13px}
+    .contact a{display:inline-block;margin-right:8px;margin-top:8px}
+    @media (max-width:880px){main{grid-template-columns:1fr} .avatar{width:68px;height:68px;font-size:24px}}
+    .topline{display:flex;justify-content:space-between;align-items:center}
+    .download{margin-left:8px}
+    .badge{display:inline-block;padding:6px 8px;border-radius:8px;background:rgba(11,92,255,0.12);color:var(--accent);font-weight:600}
+    .meta{color:var(--muted);font-size:13px}
+    .project-links a{margin-right:8px;font-size:13px}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="avatar">NN</div>
+      <div>
+        <h1>Naveen Kumar N <span class="meta">— Java Full Stack Developer</span></h1>
+        <p class="lead">Java Full Stack Developer | Creating Scalable & Secure Solutions</p>
+        <nav>
+          <a class="btn" href="#projects">Projects</a>
+          <a class="btn" href="#skills">Skills</a>
+          <a class="btn" href="#contact">Contact</a>
+          <a class="btn" href="#about">About</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div>
+        <section id="about" class="card section">
+          <div class="topline"><strong>About</strong><span class="badge">Open to software Engineering roles</span></div>
+          <p style="margin-top:10px">Hi — I’m Naveen Kumar N, a passionate Java Full Stack Developer with a strong interest in IT infrastructure and support operations. I build efficient, scalable, and user-friendly web applications using Java (Spring Boot) for backend development and modern JavaScript frameworks on the frontend. I enjoy solving complex problems, automating repetitive tasks, and continuously learning about system administration, networking, and cyber security fundamentals.</p>
+        </section>
+
+        <section id="projects" class="card section projects">
+          <strong>Selected Projects</strong>
+
+          <div class="proj">
+            <div style="display:flex;justify-content:space-between;align-items:flex-start">
+              <div>
+                <div style="font-weight:700">Implementation of a Regenerative Braking-Enabled Electric Bicycle with Real-Time
+ Energy Management and Monitoring System.</div>
+                <div class="meta">Java • Spring Boot • MySQL • Electrical/Mech Work</div>
+              </div>
+              <div class="project-links"><a href="#">Live</a><a href="#">GitHub</a></div>
+            </div>
+            <p style="margin:8px 0 0">– Developed a self-charging electric bicycle using a BLDC hub motor and regenerative braking.
+                – Designed a real-time monitoring dashboard with backend and JavaScript, HTML, CSS for frontend, displaying live data such as
+ speed, battery status, and GPS location.</p>
+          </div>
+
+
+
+        </section>
+
+        <section id="education" class="card section">
+          <strong>Education & Certifications</strong>
+          <ul style="margin-top:10px;color:var(--muted);padding-left:18px">
+            <li>B.Tech Electrical and Computer Engineering — (Reva University,Bangalore)</li>
+            <li>Java Full Stack — Completed training and hands‑on projects</li>
+            <li>Basic Linux & Networking — Self study / coursework</li>
+          </ul>
+        </section>
+
+        <section id="experience" class="card section">
+          <strong>Experience & Training</strong>
+          <p style="margin-top:8px;color:var(--muted)">Preparing and practicing for L1 IT Support roles — monitoring alerts, incident response, routine maintenance (backups, patching), and customer-facing troubleshooting. Also building full-stack web apps to strengthen backend and API skills.</p>
+        </section>
+
+      </div>
+
+      <aside>
+        <div class="card section">
+          <strong id="skills">Skills</strong>
+          <div style="margin-top:10px" class="skills">
+            <span class="skill">Java</span>
+            <span class="skill">Spring Boot</span>
+            <span class="skill">JavaScript</span>
+            <span class="skill">React</span>
+            <span class="skill">HTML/CSS</span>
+            <span class="skill">MySQL</span>
+            <span class="skill">Git</span>
+            <span class="skill">Monitoring & Alerts</span>
+          </div>
+        </div>
+
+        <div class="card section">
+          <strong>Contact</strong>
+          <div class="contact" style="margin-top:10px">
+            <div class="meta">Email:</div>
+            <div>naveenkumarn8431@gmail.com</div>
+            <div class="meta" style="margin-top:8px">Links</div>
+            <div>
+              <a href="#" class="btn">GitHub</a>
+              <a href="#" class="btn">LinkedIn</a>
+              <a href="#" class="btn">Download Resume</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card section">
+          <strong>Quick Notes</strong>
+          <p style="margin-top:8px;color:var(--muted);font-size:14px">This is a simple single-file portfolio. Replace placeholder emails and links with your real email, GitHub and LinkedIn URLs. To publish, push this file to a GitHub repo and enable GitHub Pages or upload to Netlify/Vercel.</p>
+        </div>
+      </aside>
+    </main>
+
+    <footer>
+      <div style="display:flex;justify-content:space-between;align-items:center">
+        <div>© Naveen Kumar — Java Full Stack</div>
+        <div class="meta">Built with HTML • CSS • JS</div>
+      </div>
+    </footer>
+  </div>
+  <script>
+    // Small script to enable "Download Resume" (generates a simple PDF-like text file for demo)
+    document.addEventListener('click', function(e){
+      if(e.target && e.target.textContent === 'Download Resume'){
+        const resume = `Naveen Kumar\nJava Full Stack Developer & L1 IT Support\n\nSkills:\n- Java, Spring Boot, React, JS, HTML/CSS, MySQL, Linux\n\nProjects:\n- Library Management System (Spring Boot, MySQL)\n- E-commerce Demo (React + Spring Boot)\n- Support Ticket Automation (Shell/Python)\n\nContact: naveenkumar@example.com`;
+        const blob = new Blob([resume], {type: 'text/plain'});
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url; a.download = 'Naveen_kumarN_Cv.pdf';
+        document.body.appendChild(a); a.click(); a.remove(); URL.revokeObjectURL(url);
+      }
+    })
+  </script>
+</body>
+</html>
